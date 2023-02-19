@@ -4576,6 +4576,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="TX_2652" library="pimoroni-misc" deviceset="SMALL_SOLDER_JUMPER_CLOSED" device="" value="TX_2652"/>
 <part name="UART" library="pimoroni-misc" deviceset="SMALL_SOLDER_JUMPER_CLOSED" device="" value="UART"/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R8" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="5.1M"/>
+<part name="C8" library="discretes-dev" deviceset="CAP0402" device="" value="100nF"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4596,19 +4600,19 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="NAME" x="159.004" y="145.161" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="159.004" y="140.081" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="RST" gate="G$1" x="170.18" y="17.78" smashed="yes">
-<attribute name="NAME" x="170.18" y="22.606" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="170.18" y="14.986" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="RST" gate="G$1" x="147.32" y="22.86" smashed="yes">
+<attribute name="NAME" x="147.32" y="27.686" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="147.32" y="20.066" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND12" gate="1" x="162.56" y="10.16" smashed="yes">
-<attribute name="VALUE" x="160.02" y="7.62" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="139.7" y="15.24" smashed="yes">
+<attribute name="VALUE" x="137.16" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="162.56" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.036" y="104.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="134.62" y="50.8" smashed="yes">
-<attribute name="VALUE" x="134.62" y="25.654" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="134.62" y="58.928" size="1.778" layer="95" font="vector"/>
+<instance part="J1" gate="G$1" x="127" y="55.88" smashed="yes">
+<attribute name="VALUE" x="127" y="30.734" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="127" y="64.008" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="D5" gate="G$1" x="142.24" y="147.32" smashed="yes">
 <attribute name="NAME" x="142.24" y="149.86" size="1.27" layer="95" align="bottom-center"/>
@@ -4672,9 +4676,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="GND30" gate="1" x="279.4" y="165.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="281.94" y="167.64" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="165.1" y="50.8" smashed="yes">
-<attribute name="VALUE" x="165.1" y="25.654" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="165.1" y="58.928" size="1.778" layer="95" font="vector"/>
+<instance part="J2" gate="G$1" x="157.48" y="55.88" smashed="yes">
+<attribute name="VALUE" x="157.48" y="30.734" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="157.48" y="64.008" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="C2" gate="G$1" x="190.5" y="142.24" smashed="yes">
 <attribute name="NAME" x="192.024" y="145.161" size="1.778" layer="95" font="vector"/>
@@ -4687,12 +4691,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="GND10" gate="1" x="269.24" y="165.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="271.78" y="167.64" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BOOT" gate="G$1" x="139.7" y="17.78" smashed="yes">
-<attribute name="NAME" x="139.7" y="22.606" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="139.7" y="14.986" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="BOOT" gate="G$1" x="182.88" y="22.86" smashed="yes">
+<attribute name="NAME" x="182.88" y="27.686" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="182.88" y="20.066" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND14" gate="1" x="132.08" y="10.16" smashed="yes">
-<attribute name="VALUE" x="129.54" y="7.62" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="175.26" y="15.24" smashed="yes">
+<attribute name="VALUE" x="172.72" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="PAD1" gate="G$1" x="292.1" y="154.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="293.9542" y="156.083" size="1.778" layer="95" rot="R270"/>
@@ -4727,14 +4731,14 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="GND8" gate="1" x="200.66" y="132.08" smashed="yes">
 <attribute name="VALUE" x="198.12" y="129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="215.9" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="214.376" y="48.26" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<instance part="R4" gate="G$1" x="231.14" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="229.616" y="48.26" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="215.9" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="214.376" y="25.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<instance part="R5" gate="G$1" x="231.14" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="229.616" y="25.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND9" gate="1" x="215.9" y="10.16" smashed="yes">
-<attribute name="VALUE" x="213.36" y="7.62" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="231.14" y="10.16" smashed="yes">
+<attribute name="VALUE" x="228.6" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="297.18" y="101.6" smashed="yes">
 <attribute name="VALUE" x="297.18" y="93.98" size="1.778" layer="96" rot="R90"/>
@@ -4754,11 +4758,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="GND15" gate="1" x="297.18" y="2.54" smashed="yes">
 <attribute name="VALUE" x="294.64" y="0" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="147.32" y="60.96" smashed="yes" rot="R180">
-<attribute name="VALUE" x="149.86" y="63.5" size="1.778" layer="96" rot="R180"/>
+<instance part="GND16" gate="1" x="139.7" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="142.24" y="68.58" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="154.94" y="53.34" smashed="yes" rot="R270">
-<attribute name="VALUE" x="147.32" y="53.34" size="1.778" layer="96"/>
+<instance part="+3V5" gate="G$1" x="147.32" y="58.42" smashed="yes" rot="R270">
+<attribute name="VALUE" x="139.7" y="58.42" size="1.778" layer="96"/>
 </instance>
 <instance part="U6" gate="G$1" x="281.94" y="53.34" smashed="yes">
 <attribute name="NAME" x="271.78" y="66.04" size="1.778" layer="95" align="top-left"/>
@@ -4773,15 +4777,15 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="C6" gate="G$1" x="261.62" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="260.096" y="12.319" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="D1" gate="G$1" x="228.6" y="27.94" smashed="yes">
-<attribute name="NAME" x="225.171" y="23.368" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="230.505" y="23.368" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D1" gate="G$1" x="243.84" y="27.94" smashed="yes">
+<attribute name="NAME" x="240.411" y="23.368" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="245.745" y="23.368" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R7" gate="G$1" x="228.6" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="227.076" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<instance part="R7" gate="G$1" x="243.84" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="242.316" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="GND19" gate="1" x="228.6" y="10.16" smashed="yes">
-<attribute name="VALUE" x="226.06" y="7.62" size="1.778" layer="96"/>
+<instance part="GND19" gate="1" x="243.84" y="10.16" smashed="yes">
+<attribute name="VALUE" x="241.3" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="71.12" y="5.08" smashed="yes"/>
 <instance part="+3V6" gate="G$1" x="50.8" y="10.16" smashed="yes" rot="R90">
@@ -4841,6 +4845,18 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="+3V10" gate="G$1" x="40.64" y="104.14" smashed="yes" rot="R270">
 <attribute name="VALUE" x="33.02" y="104.14" size="1.778" layer="96"/>
 </instance>
+<instance part="R8" gate="G$1" x="193.04" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="191.516" y="35.56" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="C8" gate="G$1" x="193.04" y="15.24" smashed="yes">
+<attribute name="NAME" x="194.564" y="18.161" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND2" gate="1" x="193.04" y="7.62" smashed="yes">
+<attribute name="VALUE" x="190.5" y="5.08" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V9" gate="G$1" x="193.04" y="50.8" smashed="yes">
+<attribute name="VALUE" x="193.04" y="43.18" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4874,8 +4890,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="58.42" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
-<label x="215.9" y="60.96" size="1.778" layer="95" rot="R90"/>
+<wire x1="231.14" y1="58.42" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<label x="231.14" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4896,12 +4912,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="RST" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="17.78" x2="162.56" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="22.86" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="RST" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="15.24" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="15.24" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
-<junction x="162.56" y="15.24"/>
+<wire x1="139.7" y1="20.32" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="20.32" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
+<junction x="139.7" y="20.32"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -4939,13 +4955,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="BOOT" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="17.78" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="22.86" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="BOOT" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="15.24" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
-<junction x="132.08" y="15.24"/>
+<wire x1="175.26" y1="20.32" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="20.32" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
+<junction x="175.26" y="20.32"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -4964,7 +4980,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="15.24" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="15.24" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -4991,13 +5007,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="144.78" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="55.88" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="60.96" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="228.6" y1="22.86" x2="228.6" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="22.86" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -5051,6 +5067,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="17.78" y1="134.62" x2="12.7" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="134.62" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="193.04" y1="11.43" x2="193.04" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -5181,7 +5202,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="144.78" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -5207,6 +5228,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="UART" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="45.72" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -5286,8 +5312,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="33.02" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
-<label x="149.86" y="33.02" size="1.778" layer="95"/>
+<wire x1="137.16" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<label x="142.24" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -5313,20 +5339,20 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="35.56" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
-<label x="149.86" y="35.56" size="1.778" layer="95"/>
+<wire x1="137.16" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
+<label x="142.24" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
 <segment>
 <pinref part="RST" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="17.78" x2="180.34" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="17.78" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="22.86" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="RST" gate="G$1" pin="4"/>
-<wire x1="180.34" y1="15.24" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="17.78" x2="187.96" y2="17.78" width="0.1524" layer="91"/>
-<junction x="180.34" y="17.78"/>
-<label x="182.88" y="17.78" size="1.778" layer="95"/>
+<wire x1="157.48" y1="20.32" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
+<junction x="157.48" y="22.86"/>
+<label x="160.02" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="RES"/>
@@ -5335,22 +5361,22 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="144.78" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
-<label x="149.86" y="45.72" size="1.778" layer="95"/>
+<wire x1="137.16" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="142.24" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="228.6" y1="35.56" x2="228.6" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="35.56" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIO7" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="55.88" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
-<label x="228.6" y="60.96" size="1.778" layer="95" rot="R90"/>
+<wire x1="243.84" y1="55.88" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
+<label x="243.84" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO7"/>
@@ -5361,18 +5387,23 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO15" class="0">
 <segment>
 <pinref part="BOOT" gate="G$1" pin="3"/>
-<wire x1="144.78" y1="17.78" x2="149.86" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="17.78" x2="149.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="22.86" x2="193.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="22.86" x2="193.04" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="BOOT" gate="G$1" pin="4"/>
-<wire x1="149.86" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
-<junction x="149.86" y="17.78"/>
-<label x="149.86" y="17.78" size="1.778" layer="95"/>
+<wire x1="193.04" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+<junction x="193.04" y="22.86"/>
+<label x="193.04" y="22.86" size="1.778" layer="95"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="20.32" x2="193.04" y2="19.05" width="0.1524" layer="91"/>
+<junction x="193.04" y="20.32"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="25.4" x2="193.04" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="9"/>
-<wire x1="175.26" y1="53.34" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
-<label x="177.8" y="53.34" size="1.778" layer="95"/>
+<wire x1="167.64" y1="58.42" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
+<label x="170.18" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO15"/>
@@ -5383,8 +5414,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO11" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="144.78" y1="38.1" x2="154.94" y2="38.1" width="0.1524" layer="91"/>
-<label x="147.32" y="38.1" size="1.778" layer="95"/>
+<wire x1="137.16" y1="43.18" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
+<label x="139.7" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO11"/>
@@ -5395,8 +5426,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO12" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="144.78" y1="40.64" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
-<label x="147.32" y="40.64" size="1.778" layer="95"/>
+<wire x1="137.16" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<label x="139.7" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO12"/>
@@ -5412,8 +5443,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO13" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="144.78" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
-<label x="147.32" y="43.18" size="1.778" layer="95"/>
+<wire x1="137.16" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
+<label x="139.7" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO13"/>
@@ -5429,8 +5460,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="TMS" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="144.78" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
-<label x="149.86" y="48.26" size="1.778" layer="95"/>
+<wire x1="137.16" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
+<label x="142.24" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="TMSC"/>
@@ -5441,8 +5472,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="TCK" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="144.78" y1="50.8" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
-<label x="149.86" y="50.8" size="1.778" layer="95"/>
+<wire x1="137.16" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
+<label x="142.24" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="TCKC"/>
@@ -5453,8 +5484,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO24" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="33.02" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
-<label x="177.8" y="33.02" size="1.778" layer="95"/>
+<wire x1="167.64" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
+<label x="170.18" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO24"/>
@@ -5465,8 +5496,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO22" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="38.1" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
-<label x="177.8" y="38.1" size="1.778" layer="95"/>
+<wire x1="167.64" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
+<label x="170.18" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO22"/>
@@ -5477,8 +5508,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO21" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="40.64" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
-<label x="177.8" y="40.64" size="1.778" layer="95"/>
+<wire x1="167.64" y1="45.72" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
+<label x="170.18" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO21"/>
@@ -5489,8 +5520,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO19" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
-<label x="177.8" y="43.18" size="1.778" layer="95"/>
+<wire x1="167.64" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
+<label x="170.18" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO19"/>
@@ -5501,8 +5532,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO18" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="175.26" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
-<label x="177.8" y="45.72" size="1.778" layer="95"/>
+<wire x1="167.64" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
+<label x="170.18" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO18"/>
@@ -5513,8 +5544,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO17" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="7"/>
-<wire x1="175.26" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
-<label x="177.8" y="48.26" size="1.778" layer="95"/>
+<wire x1="167.64" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="170.18" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO17"/>
@@ -5525,8 +5556,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO16" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="8"/>
-<wire x1="175.26" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
-<label x="177.8" y="50.8" size="1.778" layer="95"/>
+<wire x1="167.64" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
+<label x="170.18" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO16"/>
@@ -5537,8 +5568,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="DIO14" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="10"/>
-<wire x1="175.26" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
-<label x="177.8" y="55.88" size="1.778" layer="95"/>
+<wire x1="167.64" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+<label x="170.18" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIO14"/>
@@ -5554,16 +5585,16 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="35.56" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
-<label x="177.8" y="35.56" size="1.778" layer="95"/>
+<wire x1="167.64" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
+<label x="170.18" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="38.1" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="38.1" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
-<junction x="215.9" y="38.1"/>
-<label x="208.28" y="38.1" size="1.778" layer="95"/>
+<wire x1="231.14" y1="38.1" x2="231.14" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="38.1" x2="231.14" y2="38.1" width="0.1524" layer="91"/>
+<junction x="231.14" y="38.1"/>
+<label x="223.52" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">

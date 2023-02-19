@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1521,6 +1521,26 @@ design rules under a new name.</description>
 <element name="UART" library="pimoroni-misc" package="SMALL_SOLDER_JUMPER_CLOSED" value="UART" x="7.366" y="11.938" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.096" y="14.478" size="0.762" layer="22" font="vector" ratio="14" rot="MR90" align="bottom-center"/>
 </element>
+<element name="R8" library="RC0402FR-073M6L" package="RESC1005X40N" value="5.1M" x="4.826" y="10.033" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Good" x="4.826" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="4.826" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Yageo" x="4.826" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="RC0402FR-073M6L" x="4.826" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="5.085" y="11.115" size="0.8128" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="4.826" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="4.826" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="4.826" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C8" library="discretes-dev" package="CAPC1005X40N" value="100nF" x="5.969" y="10.033" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Good" x="5.969" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="5.969" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Yageo" x="5.969" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="RC0402FR-073M6L" x="5.969" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="6.355" y="11.115" size="0.8128" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="5.969" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="5.969" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="5.969" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1648,6 +1668,18 @@ design rules under a new name.</description>
 <via x="8.763" y="27.559" extent="1-16" drill="0.3"/>
 <via x="8.89" y="30.099" extent="1-16" drill="0.3"/>
 <via x="8.763" y="33.655" extent="1-16" drill="0.3"/>
+<via x="6.079771875" y="34.791140625" extent="1-16" drill="0.3"/>
+<via x="11.811" y="27.559" extent="1-16" drill="0.3"/>
+<via x="16.764" y="36.322" extent="1-16" drill="0.3"/>
+<via x="7.874" y="43.18" extent="1-16" drill="0.3"/>
+<via x="11.684" y="43.18" extent="1-16" drill="0.3"/>
+<via x="15.494" y="43.053" extent="1-16" drill="0.3"/>
+<via x="13.208" y="18.288" extent="1-16" drill="0.3"/>
+<via x="9.144" y="22.225" extent="1-16" drill="0.3"/>
+<via x="1.524" y="14.986" extent="1-16" drill="0.3"/>
+<via x="4.699" y="7.493" extent="1-16" drill="0.3"/>
+<via x="4.699" y="5.461" extent="1-16" drill="0.3"/>
+<contactref element="C8" pad="2"/>
 </signal>
 <signal name="VCC">
 <contactref element="Q1" pad="3"/>
@@ -1866,6 +1898,13 @@ design rules under a new name.</description>
 <contactref element="UART" pad="2"/>
 <wire x1="8.001" y1="12.573" x2="8.3106" y2="12.2634" width="0.3048" layer="16"/>
 <wire x1="7.366" y1="12.573" x2="8.001" y2="12.573" width="0.3048" layer="16"/>
+<contactref element="R8" pad="2"/>
+<wire x1="4.826" y1="10.465" x2="4.826" y2="11.811" width="0.2" layer="1"/>
+<wire x1="3.048" y1="13.589" x2="2.921" y2="13.589" width="0.2" layer="1"/>
+<wire x1="2.921" y1="13.589" x2="2.921" y2="18.542" width="0.2" layer="1"/>
+<wire x1="2.921" y1="18.542" x2="3.81" y2="19.431" width="0.2" layer="1"/>
+<wire x1="3.81" y1="19.431" x2="5.207" y2="19.431" width="0.2" layer="1"/>
+<wire x1="4.826" y1="11.811" x2="3.048" y2="13.589" width="0.2" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U1" pad="5"/>
@@ -2053,6 +2092,10 @@ design rules under a new name.</description>
 <wire x1="5.461" y1="3.937" x2="5.842" y2="4.318" width="0.2" layer="1"/>
 <wire x1="5.842" y1="4.318" x2="5.969" y2="4.318" width="0.2" layer="1"/>
 <via x="5.969" y="4.318" extent="1-16" drill="0.3"/>
+<contactref element="C8" pad="1"/>
+<contactref element="R8" pad="1"/>
+<wire x1="4.826" y1="9.601" x2="5.969" y2="9.601" width="0.2" layer="1"/>
+<wire x1="5.969" y1="9.601" x2="5.969" y2="4.318" width="0.2" layer="1"/>
 </signal>
 <signal name="DIO11">
 <contactref element="J1" pad="3"/>
@@ -2312,14 +2355,15 @@ design rules under a new name.</description>
 <contactref element="U5" pad="10"/>
 <contactref element="U5" pad="7"/>
 <wire x1="1.532" y1="6.568" x2="1.532" y2="5.707" width="0.3048" layer="16"/>
-<wire x1="1.532" y1="5.707" x2="1.778" y2="5.461" width="0.3048" layer="16"/>
-<wire x1="1.778" y1="5.461" x2="3.032" y2="5.461" width="0.3048" layer="16"/>
-<wire x1="3.032" y1="6.568" x2="3.032" y2="5.461" width="0.3048" layer="16"/>
-<wire x1="7.366" y1="11.303" x2="7.366" y2="10.999375" width="0.3048" layer="16"/>
-<wire x1="5.3896" y1="6.4056" x2="4.445" y2="5.461" width="0.3048" layer="16"/>
-<wire x1="4.445" y1="5.461" x2="3.032" y2="5.461" width="0.3048" layer="16"/>
-<wire x1="7.366" y1="10.999375" x2="5.3896" y2="9.022975" width="0.3048" layer="16"/>
-<wire x1="5.3896" y1="9.022975" x2="5.3896" y2="6.4056" width="0.3048" layer="16"/>
+<wire x1="1.778" y1="5.461" x2="1.532" y2="5.707" width="0.3048" layer="16"/>
+<wire x1="7.366" y1="10.999375" x2="7.366" y2="11.303" width="0.3048" layer="16"/>
+<wire x1="3.032" y1="6.568" x2="3.032" y2="5.699" width="0.3048" layer="16"/>
+<wire x1="3.032" y1="5.699" x2="2.794" y2="5.461" width="0.3048" layer="16"/>
+<wire x1="2.794" y1="5.461" x2="1.778" y2="5.461" width="0.3048" layer="16"/>
+<wire x1="3.032" y1="6.568" x2="3.032" y2="7.793525" width="0.3048" layer="16"/>
+<wire x1="3.596675" y1="8.3582" x2="4.724825" y2="8.3582" width="0.3048" layer="16"/>
+<wire x1="3.032" y1="7.793525" x2="3.596675" y2="8.3582" width="0.3048" layer="16"/>
+<wire x1="4.724825" y1="8.3582" x2="7.366" y2="10.999375" width="0.3048" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2583,6 +2627,7 @@ design rules under a new name.</description>
 <approved hash="19,16,52816df96d30d483"/>
 <approved hash="19,16,8b2870f37a2f073f"/>
 <approved hash="19,16,e8e4e938b50cb4d0"/>
+<approved hash="19,1,0e2202827c9c703c"/>
 </errors>
 </board>
 </drawing>
